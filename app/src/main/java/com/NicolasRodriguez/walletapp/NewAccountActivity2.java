@@ -12,6 +12,11 @@ public class NewAccountActivity2 extends AppCompatActivity {
     private ImageView ivBack;
 
 
+
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
