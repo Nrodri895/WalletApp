@@ -5,6 +5,16 @@ public class Account {
     private String type;
     private Double currentvalue;
 
+    private String imageUrl;
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
     public String getName() {
         return name;
     }
@@ -29,10 +39,11 @@ public class Account {
         this.currentvalue = currentvalue;
     }
 
-    public Account(String name, String type, Double currentvalue) {
+    public Account(String name, String type, Double currentvalue, String imageUrl) {
         this.name = name;
         this.type = type;
         this.currentvalue = currentvalue;
-
+        this.imageUrl = imageUrl;
     }
 }
+
